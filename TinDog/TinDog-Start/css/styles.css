@@ -1,0 +1,161 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+#title{
+    background-color: #ff4c68;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.navbar{
+    margin-bottom: 8%;
+}
+
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    
+}
+
+.punchline{
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    margin-top: 30px;
+}
+
+.col-lg-6{
+    text-align: left;
+}
+
+button{
+    margin: 40px 20px 10px 0;
+}
+
+.cover-image{
+    size: 60%;
+    transform: rotate(30deg);
+    margin-left: 150px;
+}
+
+.nav-item{
+    font-size: 1.4em;
+    margin-right: 5em;
+}
+
+h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.features.row{
+    padding: 7% 15%;
+}
+
+.col-lg-4{
+    padding: 50px 70px;
+}
+
+p{
+    color: #8f8f8f;
+    font-size: 1.3rem;
+}
+
+.col-lg-4 .fas{
+    font-size: 4.5rem;
+    color: #ef8172;
+    padding: 20px;
+}
+
+.features .fas:hover{
+    color: #ff4c68;
+}
+
+.testimonials{
+    background-color: #ef8172;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials h2{
+    font-size: 2.7rem;
+    line-height: 1.7;
+    font-weight: 700;
+    color:white;
+}
+
+.testimonials img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonials em{
+    color: white;
+}
+
+.press{
+    background-color: #ef8172;
+    padding: 0 10% 7%;
+}
+
+.press img{
+    padding: 10px 30px;
+}
+
+#pricing{
+    padding: 5%;
+}
+
+#pricing h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#footer{
+    padding: 7% 15%;
+}
+#footer i{
+    padding: 25px 20px;
+    font-size: 1.3rem;
+}
+
+@media (max-width: 725px){
+    
+    .punchline{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    .col-lg-6{
+        text-align: center;
+    }
+    button{
+        margin: 10px 10px 10px;
+    }
+    .cover-image{
+        transform: rotate(0);
+        margin-left: 0;
+        size: 50%;
+        text-align: center;
+        position:relative;
+        right: 25px;
+        padding: 10px;
+    }
+}
