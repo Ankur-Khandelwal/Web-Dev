@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: pink;
+  text-align: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.heading{
+  margin:auto;
+  padding: 20px;
+  font-family: 'Allura', cursive;
+}
+
+.form-control{
+  max-width: 50vw;
+  margin: auto;
+}
+
+.fermiResult{
+  width: 20vw;
+  background-color: aqua;
+  margin: 50px;
+  margin-bottom: 5px;
+}
+
+.restartButton{
+  margin-top: 150px
+}
