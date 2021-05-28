@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fermi Game</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <h1 class="heading">The Fermi Game</h1>
+    <div class="container">
+      <form action="/" method="POST">
+        <input type="text" name="guessedNum" value="" class="form-control" autocomplete="off" placeholder="e.g. 123 (without spaces)">
+        <br>
+        <button type="submit" name="button" class="btn btn-primary">Make the Guess</button>
+        <div class="fermiResult">
+          <%=fermiResult%><br>
+        </div>
+        Number of Guesses = <%=gCount%><br>
+      </form>
+      <form action="/rstrtGm" method="POST">
+      <button type="submit" name="rstButton" class="btn btn-danger restartButton">Restart Game</button>
+    </form>
+    </div>
+  </body>
+</html>
